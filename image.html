@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="image.css">
+
+    <title>Cozy Image Gallery</title>
+</head>
+
+<body>
+    <div class="container-fluid main-container">
+
+
+        <header class="mainHeader pt-2 ">
+            <nav class=" firstPageNav navbar navbar-expand-lg navbar ">
+                <div class="container-fluid">
+
+                    <a class="navbar-brand flex-grow-1" href="#">
+                        <img src="https://cdn.shopify.com/app-store/listing_images/90bcd8f523404622743dd3c6dfb549f6/icon/CKHfieCpvPwCEAE=.png"
+                            width="50" height="50">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                        <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                            <div class="topNavList  d-flex rounded-pill">
+                                <div class="topNavIcon  text-center  px-2 mx-2">
+                                    <a href="">
+                                        <i class="fa-solid fa-images text-dark"></i>
+                                        <p class="fw-bold text-dark">Gallery</p>
+                                    </a>
+                                </div>
+
+                                <div class="topNavIcon text-center px-2 mx-2">
+                                    <a href="">
+                                        <i class="fa-solid fa-gears text-dark"></i>
+                                        <p class="fw-bold text-dark">Preferences</p>
+                                    </a>
+                                </div>
+                                <div class="topNavIcon  text-center px-2 mx-2">
+                                    <a href="">
+                                        <i class="fa-solid fa-video text-dark"></i>
+                                        <p class="fw-bold text-dark">How to video </p>
+                                    </a>
+                                </div>
+
+                                <div class="topNavIcon  text-center px-2 mx-2 ">
+
+                                    <a
+                                        href="https://codingartistweb.com/2020/03/neumorphism-ui-text-effect-fully-editable-css-text-effect/">
+
+
+                                        <i class="fa-sharp fa-solid fa-dollar-sign text-dark"></i>
+                                        <p class="fw-bold text-dark">Pricing </p>
+                                    </a>
+                                </div>
+
+                                <div class="topNavIcon  text-center px-2 mx-2">
+                                    <i class="fa-solid fa-circle-question"></i>
+                                    <li class="nav-item dropdown">
+                                        <a class=" dropdown-toggle p-0 text-dark " href="#" id="navbarDropdownMenuLink"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+                                            <span class="fw-bold">Help</span>
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid fa-house-chimney p-2"></i>Instructions</a></li>
+                                            <li><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid fa-house-chimney p-2"></i>Support & FAQ?</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid fa-house-chimney p-2"></i>Helpful Articles</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <form class="d-flex">
+
+                        <div class="toggle-button-cover ">
+
+                            <div class="button r border border-1" id="button-3">
+                                <input type="checkbox" class="checkbox" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+    </div>
+    </nav>
+
+    </header>
+    <div class=" row secondContainer">
+        <div class="col-lg-4  sidebar  mx-3" style="width:20rem;">
+
+
+            <div class="list-group list-group-flush  my-4">
+                <div class=" sideNav rounded-pill my-2">
+                    <a href="#" class="list-group-item border-0 list-group-item-action py-2 ripple" aria-current="true">
+                        <i class=" sideNavIcon fa-sharp fa-solid fa-globe me-1"></i><span class="fw-bold p-3">Geo-IP
+                            Images</span>
+
+                        <span class="bg-dark text-white p-1 ms-2">New</span>
+
+                    </a>
+                </div>
+
+                <div class=" sideNav rounded-pill my-2">
+                    <a href="#" class="list-group-item  border-0 list-group-item-action py-2 ripple"
+                        aria-current="true">
+                        <i class=" sideNavIcon fa-solid fa-puzzle-piece me-1"></i><span class="fw-bold p-3 ">Geo-IP
+                            Addons</span>
+                    </a>
+                </div>
+
+                <div class=" sideNav rounded-pill my-2">
+                    <a href="#" class="list-group-item  border-0 list-group-item-action ripple" aria-current="true">
+                        <i class=" sideNavIcon fa-sharp fa-solid fa-images me-1"></i>
+                        <span class="fw-bold p-3">Gallery</span></a>
+                </div>
+
+                <div class=" sideNav rounded-pill my-2">
+                    <a href="#" class="list-group-item  border-0 list-group-item-action py-2 ripple"
+                        aria-current="true">
+                        <i class="sideNavIcon fa-solid fa-photo-film me-1"></i><span class="fw-bold ps-3">Video
+                            Gallery</span>
+                    </a>
+                </div>
+
+                <div class=" sideNav rounded-pill my-2">
+                    <a href="#" class="list-group-item  border-0  list-group-item-action py-2 ripple"
+                        aria-current="true">
+                        <i class="sideNavIcon fa-solid fa-shield-halved me-1"></i><span
+                            class="fw-bold ps-3">Antitheft</span>
+                    </a>
+                </div>
+
+                <div class=" sideNav rounded-pill my-2">
+                    <a href="#" class="list-group-item  border-0  list-group-item-action py-2 ripple"
+                        aria-current="true">
+                        <i class=" sideNavIcon fa-solid fa-universal-access me-1"></i><span class="fw-bold ps-3">Recover
+                            sales</span>
+                    </a>
+                </div>
+
+                <div class=" sideNav rounded-pill my-2">
+                    <a href="#" class="list-group-item   border-0 list-group-item-action py-2 ripple"
+                        aria-current="true">
+                        <i class=" sideNavIcon fa-solid fa-medal me-1"></i><span class="fw-bold ps-3">Trending best
+                            sellers</span>
+                    </a>
+                </div>
+
+                <div class=" sideNav rounded-pill my-2">
+                    <a href="#" class="list-group-item   border-0 list-group-item-action py-2 ripple"
+                        aria-current="true">
+                        <i class=" sideNavIcon fa-solid fa-bullhorn me-1"></i><span
+                            class="fw-bold ps-3">Announcement</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg  m-4">
+            <nav class="navbar ">
+                <div class=" cz-preferenceNav container-fluid justify-content-center  rounded-pill fw-bold">
+
+                    <a class="navbar-brand" href="#">Image Galleries</a>
+                </div>
+            </nav>
+            <div class="container-fluid tableContainer">
+                <div class="Tablehead  p-3 d-flex justify-content-between">
+
+                    <div>
+                        <button type="button" class="btn btn-light AddGalleryBtn"><i class="fa-solid fa-plus"></i>Add
+                            Gallery</button>
+                    </div>
+
+                    <div class="search  d-flex gap-2">
+
+                        <input type="text" class="form-control cz-search-bar-space InputSpace border-1"
+                            placeholder="Type here....">
+                        <button class="btn btn-light SearchBtn border-1">Search</button>
+                    </div>
+
+
+                </div>
+                <table class=" Maintable table  table-hover  ">
+                    <thead class="TableHead text-center">
+                        <tr>
+
+                            <th scope="col" class="cz-table-head">Preview</th>
+                            <th scope="col" class="cz-table-head">Name</th>
+                            <th scope="col" class="cz-table-head">Type</th>
+                            <th scope="col" class="cz-table-head">Customize</th>
+                            <th scope="col" class="cz-table-head">Action</th>
+                        </tr>
+                       
+                    </thead>
+                  
+
+
+                    <tbody class="cz-tbody">
+                        <tr class="cz-table-row">
+                            <th scope="row"><img src="dog.jpg" class="PreviewImage" alt="Dog"></img></th>
+                            <td class="Namecolumn"> <i class="fa-solid fa-pencil"></i>
+                                <a href="javascript:void(0)" id="edit-gallery--type"
+                                    class="edit-gallery-fields editable editable-click" data-pk="45113"
+                                    data-type="select" data-url="" title="Enter Gallery Type" data-name="type"
+                                    data-onblur="submit" data-showbuttons="false" data-mode="inline"
+                                    data-value="grid-widget">Grid-widget</a>
+                            </td>
+
+                            <td class="TypeCoulmn"><i class="fa-solid fa-pencil"></i>Otto</td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light imagebtn m-3"><i class="fa-solid fa-image"></i></button>
+
+                                <button class="btn btn-light settingbtn m-3"><i class="fa-solid fa-gear"></i></button>
+                            </td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light Snippetbtn m-3"><i
+                                        class="fa-sharp fa-solid fa-code"></i></button>
+
+                                <button class="btn btn-light DltBtn m-3"><i class="fa fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="spacer">
+                            <td colspan="100"></td>
+                        </tr>
+
+
+                        <tr  class="cz-table-row" >
+                        
+                            <th scope="row"><img src="dog.jpg" class="PreviewImage" alt="Dog"></img></th>
+                            <td class="Namecolumn "> <i class="fa-solid fa-pencil"></i>Jacob</td>
+                            <td class="TypeCoulmn"><i class="fa-solid fa-pencil"></i>Otto</td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light imagebtn m-3"><i class="fa-solid fa-image"></i></button>
+
+                                <button class="btn btn-light settingbtn m-3"><i class="fa-solid fa-gear"></i></button>
+                            </td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light Snippetbtn m-3"><i
+                                        class="fa-sharp fa-solid fa-code"></i></button>
+
+                                <button class="btn btn-light DltBtn m-3"><i class="fa fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="spacer">
+                            <td colspan="100"></td>
+                        </tr>
+                        <tr  class="cz-table-row">
+                            <th scope="row"><img src="dog.jpg" class="PreviewImage" alt="Dog"></img></th>
+                            <td class="Namecolumn "> <i class="fa-solid fa-pencil"></i>Larry the Bird</td>
+                            <td class="TypeCoulmn"><i class="fa-solid fa-pencil"></i>Otto</td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light imagebtn m-3"><i class="fa-solid fa-image"></i></button>
+
+                                <button class="btn btn-light settingbtn m-3"><i class="fa-solid fa-gear"></i></button>
+                            </td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light Snippetbtn m-3"><i
+                                        class="fa-sharp fa-solid fa-code"></i></button>
+
+                                <button class="btn btn-light DltBtn m-3"><i class="fa fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="spacer">
+                            <td colspan="100"></td>
+                        </tr>
+                        <tr  class="cz-table-row">
+                            <th scope="row"><img src="dog.jpg" class="PreviewImage" alt="Dog"></img></th>
+                            <td class="Namecolumn "> <i class="fa-solid fa-pencil"></i>Larry the Bird</td>
+                            <td class="TypeCoulmn"><i class="fa-solid fa-pencil"></i>Otto</td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light imagebtn m-3"><i class="fa-solid fa-image"></i></button>
+
+                                <button class="btn btn-light settingbtn m-3"><i class="fa-solid fa-gear"></i></button>
+                            </td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light Snippetbtn m-3"><i
+                                        class="fa-sharp fa-solid fa-code"></i></button>
+
+                                <button class="btn btn-light DltBtn m-3"><i class="fa fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="spacer">
+                            <td colspan="100"></td>
+                        </tr>
+                        <tr  class="cz-table-row">
+                            <th scope="row"><img src="dog.jpg" class="PreviewImage" alt="Dog"></img></th>
+                            <td class="Namecolumn "> <i class="fa-solid fa-pencil"></i>Larry the Bird</td>
+                            <td class="TypeCoulmn"><i class="fa-solid fa-pencil"></i>Otto</td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light imagebtn m-3"><i class="fa-solid fa-image"></i></button>
+
+                                <button class="btn btn-light settingbtn m-3"><i class="fa-solid fa-gear"></i></button>
+                            </td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light Snippetbtn m-3"><i
+                                        class="fa-sharp fa-solid fa-code"></i></button>
+
+                                <button class="btn btn-light DltBtn m-3"><i class="fa fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="spacer">
+                            <td colspan="100"></td>
+                        </tr>
+                        <tr  class="cz-table-row">
+                            <th scope="row"><img src="dog.jpg" class="PreviewImage" alt="Dog"></img></th>
+                            <td class="Namecolumn "> <i class="fa-solid fa-pencil"></i>Larry the Bird</td>
+                            <td class="TypeCoulmn"><i class="fa-solid fa-pencil"></i>Otto</td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light imagebtn m-3"><i class="fa-solid fa-image"></i></button>
+
+                                <button class="btn btn-light settingbtn m-3"><i class="fa-solid fa-gear"></i></button>
+                            </td>
+                            <td class="CustomizeBtns ">
+                                <button class="btn btn-light Snippetbtn m-3"><i
+                                        class="fa-sharp fa-solid fa-code"></i></button>
+
+                                <button class="btn btn-light DltBtn m-3"><i class="fa fa-trash"></i></button>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <div class="TableFooter  p-3 d-flex justify-content-between ">
+
+                    <div>
+                        Showing 1 to 10 of 20 rows
+                        <button class="btn btn-light  DropdownBtn dropdown-toggle border border-2" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            10
+                        </button>
+                        rows per page
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">10</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">20</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="PaginationBtns d-flex gap-2">
+
+
+                        <button class="btn btn-light  PagerBtns fw-bold border border-4">
+                            < </button>
+                                <button class=" btn btn-light  PagerBtns border border-4">1</button>
+                                <button class="btn btn-secondary PagerBtns  border border-4">2</button>
+                                <button class="btn   PagerBtns fw-bold border border-4">></button>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>
